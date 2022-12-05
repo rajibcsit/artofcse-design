@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Titillium Web", sans-serif !important;
+}
+
+.blog_details {
+  border-bottom: 4px solid #4ea75c;
+}
+.text-right {
+  text-align: right !important;
+}
+.footer {
+  padding: 2rem 0;
+}
+.card-img img {
+  width: 100px;
+  height: 100px;
+}

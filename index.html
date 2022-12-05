@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,900,700,600,300,200" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <title>Art of cse</title>
+    <link rel="stylesheet" href="./output/tailwind.css" />
+  </head>
+  <body class="bg-gray-400">
+    <!------------------------------Coding for navbar--------------------->
+    <section id="navbar">
+      <nav class="p-5 bg-black shadow md:flex md: items-center md: justify-between">
+        <div class="flex justify-between items-center">
+          <span class="cursor-pointer">
+            <img class="h-8 inline" src="./images/artofcse.png" alt="logo" />
+          </span>
+          <span class="text-3xl text-white cursor-pointer mx-2 md:hidden block">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+          </span>
+        </div>
+        <ul
+          class="md:flex md:items-center md:z-auto md:static absolute bg-black w-full left-0 md:py-0 py-4 md:pl-0 p1-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+        >
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="text-xl text-lime-500 hover:text-cyan-500 duration-500"> Home </a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="courses.html" class="text-xl text-white hover:text-cyan-500 duration-500"> Courses </a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="problem_solving.html" class="text-xl text-white hover:text-cyan-500 duration-500">
+              Problem Solving
+            </a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="code.html" class="text-xl text-white hover:text-cyan-500 duration-500"> Code </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <!------------------------------ Coding for intro --------------------->
+    <section id="intro">
+      <div class="grid place-items-center pt-10 bg-gradient-to-r from-cyan-500 to-green-200">
+        <div>
+          <h2 class="text-white text-xl font-light tracking-widest font-serif">
+            SPIRIT OF INNOVATION
+          </h2>
+        </div>
+
+        <div class="topbar_text_slider pt-8">
+          <ul class="bxslider text">
+            <li class="text-5xl text-white font-bold">
+              We Love <span class="text-black">Creativity</span>
+            </li>
+            <li class="text-5xl text-white font-bold">
+              We Love <span class="text-black">Invention</span>
+            </li>
+            <li class="text-5xl text-white font-bold">
+              We Love <span class="text-black">Convention</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="pt-12 pb-5">
+          <p class="text-gray-100">Start learning with Art of CSE</p>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------ Coding for Blog --------------------->
+    <section id="blog">
+      <div class="container mx-auto px-4 pt-5 pb-10">
+        <div class="flex flex-row">
+          <div class="blog-post pr-5]">
+            <div>
+              <a href="#"> <img src="./images/00-PHP-OOP–banner.png" alt="img" /> </a>
+            </div>
+
+            <div class="blog_details bg-white rounded-md">
+              <div class="text-blue-500 indent-3 font-semibold">
+                <a href="#"> <h5>PHP OOP, Design Patterns, Principles</h5> </a>
+              </div>
+              <div class="pt-4 pb-4">
+                <p class="text-center text-sm font-light text-zinc-700">
+                  এই কোর্সে আমি object-oriented PHP এবং কিছু Common Design Patterns, SOLID, KISS,
+                  DRY Principles নিয়ে আলোচনা করব
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="blog-post pr-5">
+            <div>
+              <a href="#"> <img src="./images/00-PHP-OOP–banner.png" alt="img" /> </a>
+            </div>
+
+            <div class="blog_details bg-white rounded-md">
+              <div class="text-blue-500 indent-3 font-semibold">
+                <a href="#"> <h5>PHP OOP, Design Patterns, Principles</h5> </a>
+              </div>
+              <div class="pt-4 pb-4">
+                <p class="text-center text-sm font-light text-zinc-700">
+                  এই কোর্সে আমি object-oriented PHP এবং কিছু Common Design Patterns, SOLID, KISS,
+                  DRY Principles নিয়ে আলোচনা করব
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="blog-post pr-5">
+            <div>
+              <a href="#"> <img src="./images/00-PHP-OOP–banner.png" alt="img" /> </a>
+            </div>
+
+            <div class="blog_details bg-white rounded-md">
+              <div class="text-blue-500 indent-3 font-semibold">
+                <a href="#"> <h5>PHP OOP, Design Patterns, Principles</h5> </a>
+              </div>
+              <div class="pt-4 pb-4">
+                <p class="text-center text-sm font-light text-zinc-700">
+                  এই কোর্সে আমি object-oriented PHP এবং কিছু Common Design Patterns, SOLID, KISS,
+                  DRY Principles নিয়ে আলোচনা করব
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="blog-post pr-5">
+            <div>
+              <a href="#"> <img src="./images/00-PHP-OOP–banner.png" alt="img" /> </a>
+            </div>
+
+            <div class="blog_details bg-white rounded-md">
+              <div class="text-blue-500 indent-3 font-semibold">
+                <a href="#"> <h5>PHP OOP, Design Patterns, Principles</h5> </a>
+              </div>
+              <div class="pt-4 pb-4">
+                <p class="text-center text-sm font-light text-zinc-700">
+                  এই কোর্সে আমি object-oriented PHP এবং কিছু Common Design Patterns, SOLID, KISS,
+                  DRY Principles নিয়ে আলোচনা করব
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-row pt-5">
+          <div class="blog-post pr-5">
+            <div>
+              <a href="#"> <img src="./images/00-PHP-OOP–banner.png" alt="img" /> </a>
+            </div>
+
+            <div class="blog_details bg-white rounded-md">
+              <div class="text-blue-500 indent-3 font-semibold">
+                <a href="#"> <h5>PHP OOP, Design Patterns, Principles</h5> </a>
+              </div>
+              <div class="pt-4 pb-4">
+                <p class="text-center text-sm font-light text-zinc-700">
+                  এই কোর্সে আমি object-oriented PHP এবং কিছু Common Design Patterns, SOLID, KISS,
+                  DRY Principles নিয়ে আলোচনা করব
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="blog-post pr-5">
+            <div>
+              <a href="#"> <img src="./images/00-PHP-OOP–banner.png" alt="img" /> </a>
+            </div>
+
+            <div class="blog_details bg-white rounded-md">
+              <div class="text-blue-500 indent-3 font-semibold">
+                <a href="#"> <h5>PHP OOP, Design Patterns, Principles</h5> </a>
+              </div>
+              <div class="pt-4 pb-4">
+                <p class="text-center text-sm font-light text-zinc-700">
+                  এই কোর্সে আমি object-oriented PHP এবং কিছু Common Design Patterns, SOLID, KISS,
+                  DRY Principles নিয়ে আলোচনা করব
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="blog-post pr-5">
+            <div>
+              <a href="#"> <img src="./images/00-PHP-OOP–banner.png" alt="img" /> </a>
+            </div>
+
+            <div class="blog_details bg-white rounded-md">
+              <div class="text-blue-500 indent-3 font-semibold">
+                <a href="#"> <h5>PHP OOP, Design Patterns, Principles</h5> </a>
+              </div>
+              <div class="pt-4 pb-4">
+                <p class="text-center text-sm font-light text-zinc-700">
+                  এই কোর্সে আমি object-oriented PHP এবং কিছু Common Design Patterns, SOLID, KISS,
+                  DRY Principles নিয়ে আলোচনা করব
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="blog-post pr-5">
+            <div>
+              <a href="#"> <img src="./images/00-PHP-OOP–banner.png" alt="img" /> </a>
+            </div>
+
+            <div class="blog_details bg-white rounded-md">
+              <div class="text-blue-500 indent-3 font-semibold">
+                <a href="#"> <h5>PHP OOP, Design Patterns, Principles</h5> </a>
+              </div>
+              <div class="pt-4 pb-4">
+                <p class="text-center text-sm font-light text-zinc-700">
+                  এই কোর্সে আমি object-oriented PHP এবং কিছু Common Design Patterns, SOLID, KISS,
+                  DRY Principles নিয়ে আলোচনা করব
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------ Coding for footer --------------------->
+    <section class="footer bg-slate-800 ">
+      <div class="container">
+        <nav class="p-5 bg-slate-800 shadow md:flex md: items-right md: justify-between ">
+          <div class="flex">
+            <p class="text-green-500">Copyrights © 2022 All Reserved by <span> <a href="#" class="text-white hover:text-cyan-500 duration-500">  </span> Art of CSE </a> </p>
+          </div>
+          <div class="text-right">
+            <ul class="flex">
+              <li class="mx-4 my-6 md:my-0">
+                <a href="#" class="text-base text-white hover:text-cyan-500 duration-500">
+                  About
+                </a>
+              </li>
+              <li class="mx-4 my-6 md:my-0">
+                <a href="#" class="text-base text-white hover:text-cyan-500 duration-500">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <script>
+      $(document).ready(function () {
+        $(".bxslider.text").bxSlider({
+          mode: "vertical",
+          pager: false,
+          controls: false,
+          infiniteLoop: true,
+          auto: true,
+          speed: 300,
+          pause: 2000,
+        });
+      });
+    </script>
+    <script>
+      function Menu(e) {
+        let list = document.querySelector("ul");
+
+        e.name === "menu"
+          ? ((e.name = "close"),
+            list.classList.add("top-[80px]"),
+            list.classList.add("opacity-100"))
+          : ((e.name = "menu"),
+            list.classList.remove("top-[80px]"),
+            list.classList.remove("opacity-100"));
+      }
+    </script>
+  </body>
+</html>
